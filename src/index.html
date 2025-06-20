@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BabyPanda Flash - Project Details</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('https://raw.githubusercontent.com/babypandaflash/image/refs/heads/main/BabyPanda0.png') repeat;
+      animation: pan-bg 30s linear infinite;
+      background-size: 70px;
+      color: white;
+      text-align: center;
+    }
+    @keyframes pan-bg {
+      from { background-position: 0 0; }
+      to { background-position: 600px 600px; }
+    }
+    .menu-card {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 10px;
+      background-image: url('https://raw.githubusercontent.com/babypandaflash/image/refs/heads/main/BabyPanda0.png');
+      background-repeat: repeat;
+      animation: pan-bg 30s linear infinite;
+      background-size: 120px;
+      border: 2px solid #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .menu-items {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .menu-items a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .menu-card.active .menu-items {
+      display: flex;
+    }
+    .detail-project, .community-card {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      background-image: url('https://raw.githubusercontent.com/babypandaflash/image/refs/heads/main/BabyPanda0.png');
+      background-repeat: repeat;
+      animation: pan-bg 30s linear infinite;
+      background-size: 120px;
+      border: 2px solid #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      color: white;
+    }
+    .community-button, .soon-button {
+      background-color: #e6194b;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .community-button:hover {
+      background-color: #c5123b;
+    }
+    .soon-button {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+    .socials {
+      margin-top: 40px;
+    }
+    .socials a {
+      color: #FFFFFF;
+      margin: 0 10px;
+      font-size: 24px;
+      transition: color 0.3s;
+    }
+    .socials a:hover {
+      color: #FFFFFF;
+    }
+    .copyright {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+</style>
+</head>
+<body>
+<div class="menu-card" id="menuCard">
+  <div class="hamburger" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <div class="menu-items">
+    <a href="/">Home</a>
+    <a href="/community">Community</a>
+    <a href="/whitelist-private-sale">Whitelist Private Sale</a>
+    <a href="/privatesale">Private Sale</a>
+    <a href="/presale">Presale</a>
+    <a href="/publicsale">Public Sale</a>
+    <a href="/roadmap">Roadmap</a>
+    <a href="/tokenomics">Tokenomics</a>
+  </div>
+</div>
+
+<h1 style="color: #e6194b;">BabyPanda Flash Project Details</h1>
+
+<div class="detail-project">
+  <h2 style="color: #e6194b;">About BabyPanda Flash Project</h2>
+  <p>BabyPanda Flash is preparing to launch an exciting new era in the world of Web3 by introducing both a powerful Meme Coin and a unique NFT collection. Our project is designed to reward early adopters, engage vibrant communities, and create lasting value through a decentralized ecosystem.</p>
+  <p>The BabyPanda Meme Coin will serve as the heart of our ecosystem, offering trading opportunities, staking rewards, and community-driven governance. Simultaneously, our exclusive NFT collection will feature limited-edition digital art with rare attributes, giving holders access to VIP events, early sales, and special utilities within the platform.</p>
+  <p>But that's just the beginning — we are also building our own <strong>Decentralized Exchange (DEX)</strong> and an exclusive <strong>BabyPanda NFT Marketplace</strong>. These platforms will empower our community to trade tokens and NFTs directly in a secure, fast, and fully decentralized environment.</p>
+  <p>Our upcoming DEX will feature ultra-low fees, liquidity farming, staking pools, and innovative yield farming opportunities. Meanwhile, the NFT Marketplace will showcase curated digital art collections, exclusive BabyPanda NFTs, and rare collaborations with top artists and influencers.</p>
+  <p>Beyond that, BabyPanda Flash is committed to developing a complete and self-sustaining <strong>BabyPanda Ecosystem</strong>. This includes: Launchpad for new projects, DAO governance where holders can vote on major decisions, cross-chain bridges to connect multiple blockchains, and educational platforms to onboard new users into Web3 and blockchain technology.</p>
+  <p>Currently, BabyPanda Flash is proudly built on the high-performance and low-fee <strong>Solana blockchain</strong>, providing fast, scalable, and secure transactions for our community.</p>
+  <p>In the future, we aim to develop our very own <strong>independent blockchain network</strong>, fully optimized for the BabyPanda Ecosystem.</p>
+  <p>🚀 Welcome to BabyPanda Flash — where memes, NFTs, DEX, DAO, Launchpad, Blockchain, and a full decentralized ecosystem are built by the community, for the community.</p>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Early Community</h2>
+  <p>Join the early BabyPanda Flash community and be part of our growing ecosystem.</p>
+  <a href="/community" class="community-button">Community</a>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Whitelist Private Sale</h2>
+  <p>Don't miss your chance to join the exclusive BabyPanda Flash Whitelist Private Sale!</p>
+  <p>Whitelist participants get early access, best pricing, and special rewards before anyone else. 🔥</p>
+  <a href="/whitelist-private-sale" class="community-button">Join Whitelist</a>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Private Sale</h2>
+  <p>Get in early before the public launch. Limited allocation and top-tier pricing for strategic partners.</p>
+  <a href="/privatesale" class="community-button">Enter Private Sale</a>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Presale</h2>
+  <p>Secure your $BabyPanda tokens before the main sale! Get ahead with bonuses and rewards. 🌟</p>
+  <a href="/presale" class="community-button">Join Presale</a>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Public Sale</h2>
+  <p>Join the final phase! Open to all. Be part of the revolution and own a piece of BabyPanda Flash!</p>
+  <a href="/publicsale" class="community-button">Join Public Sale</a>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Launch NFT</h2>
+  <p>Our unique NFT collection is coming soon. Get ready for rare digital collectibles and VIP access! 🎨</p>
+  <button class="soon-button">Coming Soon</button>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Launch DEX</h2>
+  <p>Trade with speed and freedom. BabyPanda DEX is coming to empower the community!</p>
+  <button class="soon-button">Coming Soon</button>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Launch Marketplace</h2>
+  <p>Discover, buy, and sell exclusive BabyPanda NFTs. Curated digital art is on the way!</p>
+  <button class="soon-button">Coming Soon</button>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Roadmap</h2>
+  <p>Explore our step-by-step plan to revolutionize the crypto and NFT world with BabyPanda Flash. 🗺️</p>
+  <a href="/roadmap" class="community-button">See Roadmap</a>
+</div>
+
+<div class="community-card">
+  <h2 style="color: #e6194b;">Tokenomics</h2>
+  <p>Understand the token allocation, supply, and how $BabyPanda will drive value in the ecosystem. 📊</p>
+  <a href="/tokenomics" class="community-button">View Tokenomics</a>
+</div>
+
+<div class="socials">
+  <a href="button btn-telegram" href="https://t.me/+y4hMLFIzNl5jNjhl" target="_blank"><i class="fab fa-telegram"></i></a>
+  <a href="https://x.com/BabyPandaFlash" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://discord.gg/REFJJ9Ww6T" target="_blank"><i class="fab fa-discord"></i></a>
+  <a href="https://www.instagram.com/babypandaflash" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://youtube.com/@babypandaflash" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+
+<div class="copyright">
+  © 2025 BabyPanda Flash. All rights reserved.
+</div>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menuCard").classList.toggle("active");
+}
+
+  let clickCount = 0;
+  const maxClicks = 5;
+  document.querySelectorAll('.menu-items a').forEach(link => {
+    link.addEventListener('click', () => {
+      clickCount++;
+      if (clickCount > maxClicks) {
+        window.location.href = '/';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
