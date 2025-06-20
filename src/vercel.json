@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/community", "destination": "/community.html" },
+    { "source": "/presale", "destination": "/presale.html" },
+    { "source": "/privatesale", "destination": "/privatesale.html" },
+    { "source": "/publicsale", "destination": "/publicsale.html" },
+    { "source": "/whitelist-private-sale", "destination": "/whitelist-private-sale.html" },
+    { "source": "/roadmap", "destination": "/roadmap.html" },
+    { "source": "/tokenomics", "destination": "/tokenomics.html" }
+  ]
+}
